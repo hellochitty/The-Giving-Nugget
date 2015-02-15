@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194080D619CF7F7A00F64283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D519CF7F7A00F64283 /* Foundation.framework */; };
+		194080D819CF7F7A00F64283 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D719CF7F7A00F64283 /* CoreGraphics.framework */; };
+		194080DA19CF7F7A00F64283 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D919CF7F7A00F64283 /* UIKit.framework */; };
+		194080E019CF7F7A00F64283 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194080DE19CF7F7A00F64283 /* InfoPlist.strings */; };
+		194080E219CF7F7A00F64283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 194080E119CF7F7A00F64283 /* main.m */; };
+		194080E619CF7F7A00F64283 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 194080E519CF7F7A00F64283 /* AppDelegate.m */; };
+		194080E919CF7F7A00F64283 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194080E719CF7F7A00F64283 /* Main_iPhone.storyboard */; };
+		194080EC19CF7F7A00F64283 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194080EA19CF7F7A00F64283 /* Main_iPad.storyboard */; };
+		194080EF19CF7F7A00F64283 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194080EE19CF7F7A00F64283 /* ViewController.m */; };
+		194080F119CF7F7A00F64283 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194080F019CF7F7A00F64283 /* Images.xcassets */; };
+		194080F819CF7F7A00F64283 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080F719CF7F7A00F64283 /* XCTest.framework */; };
+		194080F919CF7F7A00F64283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D519CF7F7A00F64283 /* Foundation.framework */; };
+		194080FA19CF7F7A00F64283 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D919CF7F7A00F64283 /* UIKit.framework */; };
+		1940810219CF7F7A00F64283 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1940810019CF7F7A00F64283 /* InfoPlist.strings */; };
+		1940810419CF7F7A00F64283 /* The_Giving_NuggetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */; };
+		19AC579819F8956200A43A11 /* nugglet-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AC579719F8956200A43A11 /* nugglet-1.png */; };
+		19B7A5D91A21679400ADD3E2 /* Hejfund 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5D81A21679400ADD3E2 /* Hejfund 2@3x.png */; };
+		19B7A5DD1A21B4BC00ADD3E2 /* Hejfund-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5DC1A21B4BC00ADD3E2 /* Hejfund-2.png */; };
+		19B7A5DF1A21B9F500ADD3E2 /* Hejfund-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5DE1A21B9F500ADD3E2 /* Hejfund-4.png */; };
+		19B7A5E11A21BB4D00ADD3E2 /* Hejfund-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E01A21BB4D00ADD3E2 /* Hejfund-5.png */; };
+		19B7A5E31A22535600ADD3E2 /* Hejfund-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E21A22535600ADD3E2 /* Hejfund-6.png */; };
+		19B7A5E51A2266A200ADD3E2 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E41A2266A200ADD3E2 /* back button.png */; };
+		19B7A5E71A2267CC00ADD3E2 /* BACKBUTTON 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E61A2267CC00ADD3E2 /* BACKBUTTON 2.png */; };
+		19B7A5E91A2268EA00ADD3E2 /* BACKBUTTON 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E81A2268EA00ADD3E2 /* BACKBUTTON 3.png */; };
+		19B7A5EB1A2271D200ADD3E2 /* HOME.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5EA1A2271D200ADD3E2 /* HOME.png */; };
+		19B7A5ED1A22722300ADD3E2 /* HOME-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5EC1A22722300ADD3E2 /* HOME-2.png */; };
+		19B7A5EF1A22731800ADD3E2 /* HOME-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5EE1A22731800ADD3E2 /* HOME-4.png */; };
+		19B7A5F11A22758400ADD3E2 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5F01A22758400ADD3E2 /* add.png */; };
+		19B7A5F31A2275FE00ADD3E2 /* add-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5F21A2275FE00ADD3E2 /* add-2.png */; };
+		19B7A5F51A22CF7400ADD3E2 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5F41A22CF7400ADD3E2 /* Icon-60@2x.png */; };
+		19C62CDD1A1811CE002ADB8B /* hejfundlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */; };
+		19C62CDF1A1813C4002ADB8B /* chicken-nuggetsjj.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		194080FB19CF7F7A00F64283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194080CA19CF7F7A00F64283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194080D119CF7F7A00F64283;
+			remoteInfo = "The Giving Nugget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194080D219CF7F7A00F64283 /* The Giving Nugget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Giving Nugget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		194080D519CF7F7A00F64283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		194080D719CF7F7A00F64283 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		194080D919CF7F7A00F64283 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		194080DD19CF7F7A00F64283 /* The Giving Nugget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Giving Nugget-Info.plist"; sourceTree = "<group>"; };
+		194080DF19CF7F7A00F64283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		194080E119CF7F7A00F64283 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		194080E319CF7F7A00F64283 /* The Giving Nugget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Giving Nugget-Prefix.pch"; sourceTree = "<group>"; };
+		194080E419CF7F7A00F64283 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		194080E519CF7F7A00F64283 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		194080E819CF7F7A00F64283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		194080EB19CF7F7A00F64283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		194080ED19CF7F7A00F64283 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		194080EE19CF7F7A00F64283 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		194080F019CF7F7A00F64283 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		194080F619CF7F7A00F64283 /* The Giving NuggetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Giving NuggetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		194080F719CF7F7A00F64283 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		194080FF19CF7F7A00F64283 /* The Giving NuggetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Giving NuggetTests-Info.plist"; sourceTree = "<group>"; };
+		1940810119CF7F7A00F64283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Giving_NuggetTests.m; sourceTree = "<group>"; };
+		19AC579719F8956200A43A11 /* nugglet-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nugglet-1.png"; path = "../../nugglet-1.png"; sourceTree = "<group>"; };
+		19B7A5D81A21679400ADD3E2 /* Hejfund 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund 2@3x.png"; path = "../../../Desktop/HejFund Logos/Hejfund 2@3x.png"; sourceTree = "<group>"; };
+		19B7A5DC1A21B4BC00ADD3E2 /* Hejfund-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-2.png"; path = "../../../Desktop/HejFund Logos/Hejfund-2.png"; sourceTree = "<group>"; };
+		19B7A5DE1A21B9F500ADD3E2 /* Hejfund-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-4.png"; path = "../../../Desktop/HejFund Logos/Hejfund-4.png"; sourceTree = "<group>"; };
+		19B7A5E01A21BB4D00ADD3E2 /* Hejfund-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-5.png"; path = "../../../Desktop/HejFund Logos/Hejfund-5.png"; sourceTree = "<group>"; };
+		19B7A5E21A22535600ADD3E2 /* Hejfund-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-6.png"; path = "../../../Desktop/HejFund Logos/Hejfund-6.png"; sourceTree = "<group>"; };
+		19B7A5E41A2266A200ADD3E2 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "../../../Desktop/HejFund Logos/back button.png"; sourceTree = "<group>"; };
+		19B7A5E61A2267CC00ADD3E2 /* BACKBUTTON 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BACKBUTTON 2.png"; path = "../../../Desktop/HejFund Logos/BACKBUTTON 2.png"; sourceTree = "<group>"; };
+		19B7A5E81A2268EA00ADD3E2 /* BACKBUTTON 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BACKBUTTON 3.png"; path = "../../../Desktop/HejFund Logos/BACKBUTTON 3.png"; sourceTree = "<group>"; };
+		19B7A5EA1A2271D200ADD3E2 /* HOME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HOME.png; path = "../../../Desktop/HejFund Logos/HOME.png"; sourceTree = "<group>"; };
+		19B7A5EC1A22722300ADD3E2 /* HOME-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HOME-2.png"; path = "../../../Desktop/HejFund Logos/HOME-2.png"; sourceTree = "<group>"; };
+		19B7A5EE1A22731800ADD3E2 /* HOME-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HOME-4.png"; path = "../../../Desktop/HejFund Logos/HOME-4.png"; sourceTree = "<group>"; };
+		19B7A5F01A22758400ADD3E2 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "../../../Desktop/HejFund Logos/add.png"; sourceTree = "<group>"; };
+		19B7A5F21A2275FE00ADD3E2 /* add-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-2.png"; path = "../../../Desktop/HejFund Logos/add-2.png"; sourceTree = "<group>"; };
+		19B7A5F41A22CF7400ADD3E2 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../Desktop/HejFund Logos/Icon-60@2x.png"; sourceTree = "<group>"; };
+		19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hejfundlogo.png; path = ../../hejfundlogo.png; sourceTree = "<group>"; };
+		19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-nuggetsjj.png"; path = "../../../Pictures/chicken-nuggetsjj.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194080CF19CF7F7A00F64283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194080D819CF7F7A00F64283 /* CoreGraphics.framework in Frameworks */,
+				194080DA19CF7F7A00F64283 /* UIKit.framework in Frameworks */,
+				194080D619CF7F7A00F64283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194080F319CF7F7A00F64283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194080F819CF7F7A00F64283 /* XCTest.framework in Frameworks */,
+				194080FA19CF7F7A00F64283 /* UIKit.framework in Frameworks */,
+				194080F919CF7F7A00F64283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194080C919CF7F7A00F64283 = {
+			isa = PBXGroup;
+			children = (
+				194080DB19CF7F7A00F64283 /* The Giving Nugget */,
+				194080FD19CF7F7A00F64283 /* The Giving NuggetTests */,
+				194080D419CF7F7A00F64283 /* Frameworks */,
+				194080D319CF7F7A00F64283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		194080D319CF7F7A00F64283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194080D219CF7F7A00F64283 /* The Giving Nugget.app */,
+				194080F619CF7F7A00F64283 /* The Giving NuggetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194080D419CF7F7A00F64283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194080D519CF7F7A00F64283 /* Foundation.framework */,
+				194080D719CF7F7A00F64283 /* CoreGraphics.framework */,
+				194080D919CF7F7A00F64283 /* UIKit.framework */,
+				194080F719CF7F7A00F64283 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		194080DB19CF7F7A00F64283 /* The Giving Nugget */ = {
+			isa = PBXGroup;
+			children = (
+				194080E419CF7F7A00F64283 /* AppDelegate.h */,
+				194080E519CF7F7A00F64283 /* AppDelegate.m */,
+				194080E719CF7F7A00F64283 /* Main_iPhone.storyboard */,
+				194080EA19CF7F7A00F64283 /* Main_iPad.storyboard */,
+				194080ED19CF7F7A00F64283 /* ViewController.h */,
+				194080EE19CF7F7A00F64283 /* ViewController.m */,
+				194080F019CF7F7A00F64283 /* Images.xcassets */,
+				194080DC19CF7F7A00F64283 /* Supporting Files */,
+			);
+			path = "The Giving Nugget";
+			sourceTree = "<group>";
+		};
+		194080DC19CF7F7A00F64283 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B7A5F41A22CF7400ADD3E2 /* Icon-60@2x.png */,
+				19B7A5F21A2275FE00ADD3E2 /* add-2.png */,
+				19B7A5F01A22758400ADD3E2 /* add.png */,
+				19B7A5EC1A22722300ADD3E2 /* HOME-2.png */,
+				19B7A5EE1A22731800ADD3E2 /* HOME-4.png */,
+				19B7A5EA1A2271D200ADD3E2 /* HOME.png */,
+				19B7A5E81A2268EA00ADD3E2 /* BACKBUTTON 3.png */,
+				19B7A5E61A2267CC00ADD3E2 /* BACKBUTTON 2.png */,
+				19B7A5E41A2266A200ADD3E2 /* back button.png */,
+				19B7A5E21A22535600ADD3E2 /* Hejfund-6.png */,
+				19B7A5E01A21BB4D00ADD3E2 /* Hejfund-5.png */,
+				19B7A5DE1A21B9F500ADD3E2 /* Hejfund-4.png */,
+				19B7A5D81A21679400ADD3E2 /* Hejfund 2@3x.png */,
+				19B7A5DC1A21B4BC00ADD3E2 /* Hejfund-2.png */,
+				19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */,
+				19AC579719F8956200A43A11 /* nugglet-1.png */,
+				19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */,
+				194080DD19CF7F7A00F64283 /* The Giving Nugget-Info.plist */,
+				194080DE19CF7F7A00F64283 /* InfoPlist.strings */,
+				194080E119CF7F7A00F64283 /* main.m */,
+				194080E319CF7F7A00F64283 /* The Giving Nugget-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		194080FD19CF7F7A00F64283 /* The Giving NuggetTests */ = {
+			isa = PBXGroup;
+			children = (
+				1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */,
+				194080FE19CF7F7A00F64283 /* Supporting Files */,
+			);
+			path = "The Giving NuggetTests";
+			sourceTree = "<group>";
+		};
+		194080FE19CF7F7A00F64283 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				194080FF19CF7F7A00F64283 /* The Giving NuggetTests-Info.plist */,
+				1940810019CF7F7A00F64283 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		194080D119CF7F7A00F64283 /* The Giving Nugget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1940810719CF7F7A00F64283 /* Build configuration list for PBXNativeTarget "The Giving Nugget" */;
+			buildPhases = (
+				194080CE19CF7F7A00F64283 /* Sources */,
+				194080CF19CF7F7A00F64283 /* Frameworks */,
+				194080D019CF7F7A00F64283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Giving Nugget";
+			productName = "The Giving Nugget";
+			productReference = 194080D219CF7F7A00F64283 /* The Giving Nugget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		194080F519CF7F7A00F64283 /* The Giving NuggetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1940810A19CF7F7A00F64283 /* Build configuration list for PBXNativeTarget "The Giving NuggetTests" */;
+			buildPhases = (
+				194080F219CF7F7A00F64283 /* Sources */,
+				194080F319CF7F7A00F64283 /* Frameworks */,
+				194080F419CF7F7A00F64283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				194080FC19CF7F7A00F64283 /* PBXTargetDependency */,
+			);
+			name = "The Giving NuggetTests";
+			productName = "The Giving NuggetTests";
+			productReference = 194080F619CF7F7A00F64283 /* The Giving NuggetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194080CA19CF7F7A00F64283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chithra Venkatesan";
+				TargetAttributes = {
+					194080F519CF7F7A00F64283 = {
+						TestTargetID = 194080D119CF7F7A00F64283;
+					};
+				};
+			};
+			buildConfigurationList = 194080CD19CF7F7A00F64283 /* Build configuration list for PBXProject "The Giving Nugget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 194080C919CF7F7A00F64283;
+			productRefGroup = 194080D319CF7F7A00F64283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194080D119CF7F7A00F64283 /* The Giving Nugget */,
+				194080F519CF7F7A00F64283 /* The Giving NuggetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194080D019CF7F7A00F64283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B7A5DD1A21B4BC00ADD3E2 /* Hejfund-2.png in Resources */,
+				19AC579819F8956200A43A11 /* nugglet-1.png in Resources */,
+				194080EC19CF7F7A00F64283 /* Main_iPad.storyboard in Resources */,
+				19B7A5E31A22535600ADD3E2 /* Hejfund-6.png in Resources */,
+				19B7A5EB1A2271D200ADD3E2 /* HOME.png in Resources */,
+				194080F119CF7F7A00F64283 /* Images.xcassets in Resources */,
+				19B7A5ED1A22722300ADD3E2 /* HOME-2.png in Resources */,
+				19C62CDF1A1813C4002ADB8B /* chicken-nuggetsjj.png in Resources */,
+				19B7A5E71A2267CC00ADD3E2 /* BACKBUTTON 2.png in Resources */,
+				19B7A5E11A21BB4D00ADD3E2 /* Hejfund-5.png in Resources */,
+				19B7A5F11A22758400ADD3E2 /* add.png in Resources */,
+				19B7A5E51A2266A200ADD3E2 /* back button.png in Resources */,
+				19B7A5F31A2275FE00ADD3E2 /* add-2.png in Resources */,
+				19B7A5D91A21679400ADD3E2 /* Hejfund 2@3x.png in Resources */,
+				194080E919CF7F7A00F64283 /* Main_iPhone.storyboard in Resources */,
+				19B7A5EF1A22731800ADD3E2 /* HOME-4.png in Resources */,
+				19B7A5DF1A21B9F500ADD3E2 /* Hejfund-4.png in Resources */,
+				19B7A5F51A22CF7400ADD3E2 /* Icon-60@2x.png in Resources */,
+				194080E019CF7F7A00F64283 /* InfoPlist.strings in Resources */,
+				19B7A5E91A2268EA00ADD3E2 /* BACKBUTTON 3.png in Resources */,
+				19C62CDD1A1811CE002ADB8B /* hejfundlogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194080F419CF7F7A00F64283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1940810219CF7F7A00F64283 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194080CE19CF7F7A00F64283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194080EF19CF7F7A00F64283 /* ViewController.m in Sources */,
+				194080E619CF7F7A00F64283 /* AppDelegate.m in Sources */,
+				194080E219CF7F7A00F64283 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194080F219CF7F7A00F64283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1940810419CF7F7A00F64283 /* The_Giving_NuggetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		194080FC19CF7F7A00F64283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 194080D119CF7F7A00F64283 /* The Giving Nugget */;
+			targetProxy = 194080FB19CF7F7A00F64283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		194080DE19CF7F7A00F64283 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194080DF19CF7F7A00F64283 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		194080E719CF7F7A00F64283 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194080E819CF7F7A00F64283 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		194080EA19CF7F7A00F64283 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194080EB19CF7F7A00F64283 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1940810019CF7F7A00F64283 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1940810119CF7F7A00F64283 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1940810519CF7F7A00F64283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1940810619CF7F7A00F64283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1940810819CF7F7A00F64283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Giving Nugget/The Giving Nugget-Prefix.pch";
+				INFOPLIST_FILE = "The Giving Nugget/The Giving Nugget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1940810919CF7F7A00F64283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Giving Nugget/The Giving Nugget-Prefix.pch";
+				INFOPLIST_FILE = "The Giving Nugget/The Giving Nugget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1940810B19CF7F7A00F64283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Giving Nugget.app/The Giving Nugget";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Giving Nugget/The Giving Nugget-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Giving NuggetTests/The Giving NuggetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1940810C19CF7F7A00F64283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Giving Nugget.app/The Giving Nugget";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Giving Nugget/The Giving Nugget-Prefix.pch";
+				INFOPLIST_FILE = "The Giving NuggetTests/The Giving NuggetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194080CD19CF7F7A00F64283 /* Build configuration list for PBXProject "The Giving Nugget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1940810519CF7F7A00F64283 /* Debug */,
+				1940810619CF7F7A00F64283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1940810719CF7F7A00F64283 /* Build configuration list for PBXNativeTarget "The Giving Nugget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1940810819CF7F7A00F64283 /* Debug */,
+				1940810919CF7F7A00F64283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1940810A19CF7F7A00F64283 /* Build configuration list for PBXNativeTarget "The Giving NuggetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1940810B19CF7F7A00F64283 /* Debug */,
+				1940810C19CF7F7A00F64283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194080CA19CF7F7A00F64283 /* Project object */;
+}
