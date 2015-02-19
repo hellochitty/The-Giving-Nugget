@@ -23,20 +23,23 @@
 		1940810219CF7F7A00F64283 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1940810019CF7F7A00F64283 /* InfoPlist.strings */; };
 		1940810419CF7F7A00F64283 /* The_Giving_NuggetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */; };
 		19AC579819F8956200A43A11 /* nugglet-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AC579719F8956200A43A11 /* nugglet-1.png */; };
-		19B7A5D91A21679400ADD3E2 /* Hejfund 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5D81A21679400ADD3E2 /* Hejfund 2@3x.png */; };
-		19B7A5DD1A21B4BC00ADD3E2 /* Hejfund-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5DC1A21B4BC00ADD3E2 /* Hejfund-2.png */; };
-		19B7A5DF1A21B9F500ADD3E2 /* Hejfund-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5DE1A21B9F500ADD3E2 /* Hejfund-4.png */; };
-		19B7A5E11A21BB4D00ADD3E2 /* Hejfund-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E01A21BB4D00ADD3E2 /* Hejfund-5.png */; };
-		19B7A5E31A22535600ADD3E2 /* Hejfund-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E21A22535600ADD3E2 /* Hejfund-6.png */; };
-		19B7A5E51A2266A200ADD3E2 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E41A2266A200ADD3E2 /* back button.png */; };
-		19B7A5E71A2267CC00ADD3E2 /* BACKBUTTON 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E61A2267CC00ADD3E2 /* BACKBUTTON 2.png */; };
-		19B7A5E91A2268EA00ADD3E2 /* BACKBUTTON 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5E81A2268EA00ADD3E2 /* BACKBUTTON 3.png */; };
-		19B7A5EB1A2271D200ADD3E2 /* HOME.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5EA1A2271D200ADD3E2 /* HOME.png */; };
-		19B7A5ED1A22722300ADD3E2 /* HOME-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5EC1A22722300ADD3E2 /* HOME-2.png */; };
-		19B7A5EF1A22731800ADD3E2 /* HOME-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5EE1A22731800ADD3E2 /* HOME-4.png */; };
-		19B7A5F11A22758400ADD3E2 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5F01A22758400ADD3E2 /* add.png */; };
-		19B7A5F31A2275FE00ADD3E2 /* add-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5F21A2275FE00ADD3E2 /* add-2.png */; };
-		19B7A5F51A22CF7400ADD3E2 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7A5F41A22CF7400ADD3E2 /* Icon-60@2x.png */; };
+		19BD1BEA1A957A2000572CCC /* add-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BCF1A957A2000572CCC /* add-2.png */; };
+		19BD1BEB1A957A2000572CCC /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD01A957A2000572CCC /* add.png */; };
+		19BD1BEC1A957A2000572CCC /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD11A957A2000572CCC /* back button.png */; };
+		19BD1BED1A957A2000572CCC /* BACKBUTTON 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD21A957A2000572CCC /* BACKBUTTON 2.png */; };
+		19BD1BEE1A957A2000572CCC /* BACKBUTTON 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD31A957A2000572CCC /* BACKBUTTON 3.png */; };
+		19BD1BEF1A957A2000572CCC /* Hejfund.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD41A957A2000572CCC /* Hejfund.sketch */; };
+		19BD1BF01A957A2000572CCC /* Hejfund 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD51A957A2000572CCC /* Hejfund 2@3x.png */; };
+		19BD1BF11A957A2000572CCC /* Hejfund-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD61A957A2000572CCC /* Hejfund-2.png */; };
+		19BD1BF21A957A2000572CCC /* Hejfund-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD71A957A2000572CCC /* Hejfund-3.png */; };
+		19BD1BF31A957A2000572CCC /* Hejfund-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD81A957A2000572CCC /* Hejfund-4.png */; };
+		19BD1BF41A957A2000572CCC /* Hejfund-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD91A957A2000572CCC /* Hejfund-5.png */; };
+		19BD1BF51A957A2000572CCC /* Hejfund-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDA1A957A2000572CCC /* Hejfund-6.png */; };
+		19BD1BF61A957A2000572CCC /* HOME-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDB1A957A2000572CCC /* HOME-2.png */; };
+		19BD1BF71A957A2000572CCC /* HOME-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDC1A957A2000572CCC /* HOME-4.png */; };
+		19BD1BF81A957A2000572CCC /* HOME.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDD1A957A2000572CCC /* HOME.png */; };
+		19BD1BF91A957A2000572CCC /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDE1A957A2000572CCC /* Icon-60@2x.png */; };
+		19BD1BFA1A957A2000572CCC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDF1A957A2000572CCC /* icon.png */; };
 		19C62CDD1A1811CE002ADB8B /* hejfundlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */; };
 		19C62CDF1A1813C4002ADB8B /* chicken-nuggetsjj.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */; };
 /* End PBXBuildFile section */
@@ -73,20 +76,23 @@
 		1940810119CF7F7A00F64283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Giving_NuggetTests.m; sourceTree = "<group>"; };
 		19AC579719F8956200A43A11 /* nugglet-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nugglet-1.png"; path = "../../nugglet-1.png"; sourceTree = "<group>"; };
-		19B7A5D81A21679400ADD3E2 /* Hejfund 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund 2@3x.png"; path = "../../../Desktop/HejFund Logos/Hejfund 2@3x.png"; sourceTree = "<group>"; };
-		19B7A5DC1A21B4BC00ADD3E2 /* Hejfund-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-2.png"; path = "../../../Desktop/HejFund Logos/Hejfund-2.png"; sourceTree = "<group>"; };
-		19B7A5DE1A21B9F500ADD3E2 /* Hejfund-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-4.png"; path = "../../../Desktop/HejFund Logos/Hejfund-4.png"; sourceTree = "<group>"; };
-		19B7A5E01A21BB4D00ADD3E2 /* Hejfund-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-5.png"; path = "../../../Desktop/HejFund Logos/Hejfund-5.png"; sourceTree = "<group>"; };
-		19B7A5E21A22535600ADD3E2 /* Hejfund-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-6.png"; path = "../../../Desktop/HejFund Logos/Hejfund-6.png"; sourceTree = "<group>"; };
-		19B7A5E41A2266A200ADD3E2 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "../../../Desktop/HejFund Logos/back button.png"; sourceTree = "<group>"; };
-		19B7A5E61A2267CC00ADD3E2 /* BACKBUTTON 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BACKBUTTON 2.png"; path = "../../../Desktop/HejFund Logos/BACKBUTTON 2.png"; sourceTree = "<group>"; };
-		19B7A5E81A2268EA00ADD3E2 /* BACKBUTTON 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BACKBUTTON 3.png"; path = "../../../Desktop/HejFund Logos/BACKBUTTON 3.png"; sourceTree = "<group>"; };
-		19B7A5EA1A2271D200ADD3E2 /* HOME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HOME.png; path = "../../../Desktop/HejFund Logos/HOME.png"; sourceTree = "<group>"; };
-		19B7A5EC1A22722300ADD3E2 /* HOME-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HOME-2.png"; path = "../../../Desktop/HejFund Logos/HOME-2.png"; sourceTree = "<group>"; };
-		19B7A5EE1A22731800ADD3E2 /* HOME-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HOME-4.png"; path = "../../../Desktop/HejFund Logos/HOME-4.png"; sourceTree = "<group>"; };
-		19B7A5F01A22758400ADD3E2 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "../../../Desktop/HejFund Logos/add.png"; sourceTree = "<group>"; };
-		19B7A5F21A2275FE00ADD3E2 /* add-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-2.png"; path = "../../../Desktop/HejFund Logos/add-2.png"; sourceTree = "<group>"; };
-		19B7A5F41A22CF7400ADD3E2 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../Desktop/HejFund Logos/Icon-60@2x.png"; sourceTree = "<group>"; };
+		19BD1BCF1A957A2000572CCC /* add-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-2.png"; path = "HejFund Logos/add-2.png"; sourceTree = "<group>"; };
+		19BD1BD01A957A2000572CCC /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "HejFund Logos/add.png"; sourceTree = "<group>"; };
+		19BD1BD11A957A2000572CCC /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "HejFund Logos/back button.png"; sourceTree = "<group>"; };
+		19BD1BD21A957A2000572CCC /* BACKBUTTON 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BACKBUTTON 2.png"; path = "HejFund Logos/BACKBUTTON 2.png"; sourceTree = "<group>"; };
+		19BD1BD31A957A2000572CCC /* BACKBUTTON 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BACKBUTTON 3.png"; path = "HejFund Logos/BACKBUTTON 3.png"; sourceTree = "<group>"; };
+		19BD1BD41A957A2000572CCC /* Hejfund.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; name = Hejfund.sketch; path = "HejFund Logos/Hejfund.sketch"; sourceTree = "<group>"; };
+		19BD1BD51A957A2000572CCC /* Hejfund 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund 2@3x.png"; path = "HejFund Logos/Hejfund 2@3x.png"; sourceTree = "<group>"; };
+		19BD1BD61A957A2000572CCC /* Hejfund-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-2.png"; path = "HejFund Logos/Hejfund-2.png"; sourceTree = "<group>"; };
+		19BD1BD71A957A2000572CCC /* Hejfund-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-3.png"; path = "HejFund Logos/Hejfund-3.png"; sourceTree = "<group>"; };
+		19BD1BD81A957A2000572CCC /* Hejfund-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-4.png"; path = "HejFund Logos/Hejfund-4.png"; sourceTree = "<group>"; };
+		19BD1BD91A957A2000572CCC /* Hejfund-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-5.png"; path = "HejFund Logos/Hejfund-5.png"; sourceTree = "<group>"; };
+		19BD1BDA1A957A2000572CCC /* Hejfund-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hejfund-6.png"; path = "HejFund Logos/Hejfund-6.png"; sourceTree = "<group>"; };
+		19BD1BDB1A957A2000572CCC /* HOME-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HOME-2.png"; path = "HejFund Logos/HOME-2.png"; sourceTree = "<group>"; };
+		19BD1BDC1A957A2000572CCC /* HOME-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HOME-4.png"; path = "HejFund Logos/HOME-4.png"; sourceTree = "<group>"; };
+		19BD1BDD1A957A2000572CCC /* HOME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HOME.png; path = "HejFund Logos/HOME.png"; sourceTree = "<group>"; };
+		19BD1BDE1A957A2000572CCC /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "HejFund Logos/Icon-60@2x.png"; sourceTree = "<group>"; };
+		19BD1BDF1A957A2000572CCC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "HejFund Logos/icon.png"; sourceTree = "<group>"; };
 		19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hejfundlogo.png; path = ../../hejfundlogo.png; sourceTree = "<group>"; };
 		19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-nuggetsjj.png"; path = "../../../Pictures/chicken-nuggetsjj.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,20 +169,23 @@
 		194080DC19CF7F7A00F64283 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				19B7A5F41A22CF7400ADD3E2 /* Icon-60@2x.png */,
-				19B7A5F21A2275FE00ADD3E2 /* add-2.png */,
-				19B7A5F01A22758400ADD3E2 /* add.png */,
-				19B7A5EC1A22722300ADD3E2 /* HOME-2.png */,
-				19B7A5EE1A22731800ADD3E2 /* HOME-4.png */,
-				19B7A5EA1A2271D200ADD3E2 /* HOME.png */,
-				19B7A5E81A2268EA00ADD3E2 /* BACKBUTTON 3.png */,
-				19B7A5E61A2267CC00ADD3E2 /* BACKBUTTON 2.png */,
-				19B7A5E41A2266A200ADD3E2 /* back button.png */,
-				19B7A5E21A22535600ADD3E2 /* Hejfund-6.png */,
-				19B7A5E01A21BB4D00ADD3E2 /* Hejfund-5.png */,
-				19B7A5DE1A21B9F500ADD3E2 /* Hejfund-4.png */,
-				19B7A5D81A21679400ADD3E2 /* Hejfund 2@3x.png */,
-				19B7A5DC1A21B4BC00ADD3E2 /* Hejfund-2.png */,
+				19BD1BCF1A957A2000572CCC /* add-2.png */,
+				19BD1BD01A957A2000572CCC /* add.png */,
+				19BD1BD11A957A2000572CCC /* back button.png */,
+				19BD1BD21A957A2000572CCC /* BACKBUTTON 2.png */,
+				19BD1BD31A957A2000572CCC /* BACKBUTTON 3.png */,
+				19BD1BD41A957A2000572CCC /* Hejfund.sketch */,
+				19BD1BD51A957A2000572CCC /* Hejfund 2@3x.png */,
+				19BD1BD61A957A2000572CCC /* Hejfund-2.png */,
+				19BD1BD71A957A2000572CCC /* Hejfund-3.png */,
+				19BD1BD81A957A2000572CCC /* Hejfund-4.png */,
+				19BD1BD91A957A2000572CCC /* Hejfund-5.png */,
+				19BD1BDA1A957A2000572CCC /* Hejfund-6.png */,
+				19BD1BDB1A957A2000572CCC /* HOME-2.png */,
+				19BD1BDC1A957A2000572CCC /* HOME-4.png */,
+				19BD1BDD1A957A2000572CCC /* HOME.png */,
+				19BD1BDE1A957A2000572CCC /* Icon-60@2x.png */,
+				19BD1BDF1A957A2000572CCC /* icon.png */,
 				19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */,
 				19AC579719F8956200A43A11 /* nugglet-1.png */,
 				19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */,
@@ -282,27 +291,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19B7A5DD1A21B4BC00ADD3E2 /* Hejfund-2.png in Resources */,
+				19BD1BF41A957A2000572CCC /* Hejfund-5.png in Resources */,
+				19BD1BF31A957A2000572CCC /* Hejfund-4.png in Resources */,
+				19BD1BEB1A957A2000572CCC /* add.png in Resources */,
 				19AC579819F8956200A43A11 /* nugglet-1.png in Resources */,
+				19BD1BF71A957A2000572CCC /* HOME-4.png in Resources */,
+				19BD1BF01A957A2000572CCC /* Hejfund 2@3x.png in Resources */,
+				19BD1BED1A957A2000572CCC /* BACKBUTTON 2.png in Resources */,
+				19BD1BF21A957A2000572CCC /* Hejfund-3.png in Resources */,
+				19BD1BF81A957A2000572CCC /* HOME.png in Resources */,
 				194080EC19CF7F7A00F64283 /* Main_iPad.storyboard in Resources */,
-				19B7A5E31A22535600ADD3E2 /* Hejfund-6.png in Resources */,
-				19B7A5EB1A2271D200ADD3E2 /* HOME.png in Resources */,
+				19BD1BF51A957A2000572CCC /* Hejfund-6.png in Resources */,
+				19BD1BEC1A957A2000572CCC /* back button.png in Resources */,
+				19BD1BF11A957A2000572CCC /* Hejfund-2.png in Resources */,
+				19BD1BF91A957A2000572CCC /* Icon-60@2x.png in Resources */,
 				194080F119CF7F7A00F64283 /* Images.xcassets in Resources */,
-				19B7A5ED1A22722300ADD3E2 /* HOME-2.png in Resources */,
 				19C62CDF1A1813C4002ADB8B /* chicken-nuggetsjj.png in Resources */,
-				19B7A5E71A2267CC00ADD3E2 /* BACKBUTTON 2.png in Resources */,
-				19B7A5E11A21BB4D00ADD3E2 /* Hejfund-5.png in Resources */,
-				19B7A5F11A22758400ADD3E2 /* add.png in Resources */,
-				19B7A5E51A2266A200ADD3E2 /* back button.png in Resources */,
-				19B7A5F31A2275FE00ADD3E2 /* add-2.png in Resources */,
-				19B7A5D91A21679400ADD3E2 /* Hejfund 2@3x.png in Resources */,
+				19BD1BEE1A957A2000572CCC /* BACKBUTTON 3.png in Resources */,
+				19BD1BEA1A957A2000572CCC /* add-2.png in Resources */,
 				194080E919CF7F7A00F64283 /* Main_iPhone.storyboard in Resources */,
-				19B7A5EF1A22731800ADD3E2 /* HOME-4.png in Resources */,
-				19B7A5DF1A21B9F500ADD3E2 /* Hejfund-4.png in Resources */,
-				19B7A5F51A22CF7400ADD3E2 /* Icon-60@2x.png in Resources */,
 				194080E019CF7F7A00F64283 /* InfoPlist.strings in Resources */,
-				19B7A5E91A2268EA00ADD3E2 /* BACKBUTTON 3.png in Resources */,
+				19BD1BFA1A957A2000572CCC /* icon.png in Resources */,
+				19BD1BF61A957A2000572CCC /* HOME-2.png in Resources */,
 				19C62CDD1A1811CE002ADB8B /* hejfundlogo.png in Resources */,
+				19BD1BEF1A957A2000572CCC /* Hejfund.sketch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

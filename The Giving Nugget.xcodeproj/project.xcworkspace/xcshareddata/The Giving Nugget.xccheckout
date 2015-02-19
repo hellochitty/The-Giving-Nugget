@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ABE9F94A-E704-4DF3-A37D-606C809A9E1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>The Giving Nugget</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5964694A6DBB532DAED5CD1C54D63159E24FD94D</key>
+		<string>https://github.com/hellochitty/The-Giving-Nugget.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>The Giving Nugget.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5964694A6DBB532DAED5CD1C54D63159E24FD94D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hellochitty/The-Giving-Nugget.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5964694A6DBB532DAED5CD1C54D63159E24FD94D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5964694A6DBB532DAED5CD1C54D63159E24FD94D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>The%20Giving%20Nugget</string>
+		</dict>
+	</array>
+</dict>
+</plist>
