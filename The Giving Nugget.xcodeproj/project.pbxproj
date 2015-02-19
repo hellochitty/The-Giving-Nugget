@@ -22,7 +22,6 @@
 		194080FA19CF7F7A00F64283 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D919CF7F7A00F64283 /* UIKit.framework */; };
 		1940810219CF7F7A00F64283 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1940810019CF7F7A00F64283 /* InfoPlist.strings */; };
 		1940810419CF7F7A00F64283 /* The_Giving_NuggetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */; };
-		19AC579819F8956200A43A11 /* nugglet-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AC579719F8956200A43A11 /* nugglet-1.png */; };
 		19BD1BEA1A957A2000572CCC /* add-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BCF1A957A2000572CCC /* add-2.png */; };
 		19BD1BEB1A957A2000572CCC /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD01A957A2000572CCC /* add.png */; };
 		19BD1BEC1A957A2000572CCC /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD11A957A2000572CCC /* back button.png */; };
@@ -40,8 +39,8 @@
 		19BD1BF81A957A2000572CCC /* HOME.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDD1A957A2000572CCC /* HOME.png */; };
 		19BD1BF91A957A2000572CCC /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDE1A957A2000572CCC /* Icon-60@2x.png */; };
 		19BD1BFA1A957A2000572CCC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BDF1A957A2000572CCC /* icon.png */; };
+		19BD1C061A957D2700572CCC /* chicken-nuggetsjj.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1C051A957D2700572CCC /* chicken-nuggetsjj.png */; };
 		19C62CDD1A1811CE002ADB8B /* hejfundlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */; };
-		19C62CDF1A1813C4002ADB8B /* chicken-nuggetsjj.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +74,6 @@
 		194080FF19CF7F7A00F64283 /* The Giving NuggetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Giving NuggetTests-Info.plist"; sourceTree = "<group>"; };
 		1940810119CF7F7A00F64283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Giving_NuggetTests.m; sourceTree = "<group>"; };
-		19AC579719F8956200A43A11 /* nugglet-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nugglet-1.png"; path = "../../nugglet-1.png"; sourceTree = "<group>"; };
 		19BD1BCF1A957A2000572CCC /* add-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-2.png"; path = "HejFund Logos/add-2.png"; sourceTree = "<group>"; };
 		19BD1BD01A957A2000572CCC /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "HejFund Logos/add.png"; sourceTree = "<group>"; };
 		19BD1BD11A957A2000572CCC /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "HejFund Logos/back button.png"; sourceTree = "<group>"; };
@@ -93,8 +91,8 @@
 		19BD1BDD1A957A2000572CCC /* HOME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HOME.png; path = "HejFund Logos/HOME.png"; sourceTree = "<group>"; };
 		19BD1BDE1A957A2000572CCC /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "HejFund Logos/Icon-60@2x.png"; sourceTree = "<group>"; };
 		19BD1BDF1A957A2000572CCC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "HejFund Logos/icon.png"; sourceTree = "<group>"; };
+		19BD1C051A957D2700572CCC /* chicken-nuggetsjj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-nuggetsjj.png"; path = "HejFund Logos/chicken-nuggetsjj.png"; sourceTree = "<group>"; };
 		19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hejfundlogo.png; path = ../../hejfundlogo.png; sourceTree = "<group>"; };
-		19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-nuggetsjj.png"; path = "../../../Pictures/chicken-nuggetsjj.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +167,7 @@
 		194080DC19CF7F7A00F64283 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19BD1C051A957D2700572CCC /* chicken-nuggetsjj.png */,
 				19BD1BCF1A957A2000572CCC /* add-2.png */,
 				19BD1BD01A957A2000572CCC /* add.png */,
 				19BD1BD11A957A2000572CCC /* back button.png */,
@@ -187,8 +186,6 @@
 				19BD1BDE1A957A2000572CCC /* Icon-60@2x.png */,
 				19BD1BDF1A957A2000572CCC /* icon.png */,
 				19C62CDC1A1811CE002ADB8B /* hejfundlogo.png */,
-				19AC579719F8956200A43A11 /* nugglet-1.png */,
-				19C62CDE1A1813C4002ADB8B /* chicken-nuggetsjj.png */,
 				194080DD19CF7F7A00F64283 /* The Giving Nugget-Info.plist */,
 				194080DE19CF7F7A00F64283 /* InfoPlist.strings */,
 				194080E119CF7F7A00F64283 /* main.m */,
@@ -294,7 +291,6 @@
 				19BD1BF41A957A2000572CCC /* Hejfund-5.png in Resources */,
 				19BD1BF31A957A2000572CCC /* Hejfund-4.png in Resources */,
 				19BD1BEB1A957A2000572CCC /* add.png in Resources */,
-				19AC579819F8956200A43A11 /* nugglet-1.png in Resources */,
 				19BD1BF71A957A2000572CCC /* HOME-4.png in Resources */,
 				19BD1BF01A957A2000572CCC /* Hejfund 2@3x.png in Resources */,
 				19BD1BED1A957A2000572CCC /* BACKBUTTON 2.png in Resources */,
@@ -306,7 +302,6 @@
 				19BD1BF11A957A2000572CCC /* Hejfund-2.png in Resources */,
 				19BD1BF91A957A2000572CCC /* Icon-60@2x.png in Resources */,
 				194080F119CF7F7A00F64283 /* Images.xcassets in Resources */,
-				19C62CDF1A1813C4002ADB8B /* chicken-nuggetsjj.png in Resources */,
 				19BD1BEE1A957A2000572CCC /* BACKBUTTON 3.png in Resources */,
 				19BD1BEA1A957A2000572CCC /* add-2.png in Resources */,
 				194080E919CF7F7A00F64283 /* Main_iPhone.storyboard in Resources */,
@@ -315,6 +310,7 @@
 				19BD1BF61A957A2000572CCC /* HOME-2.png in Resources */,
 				19C62CDD1A1811CE002ADB8B /* hejfundlogo.png in Resources */,
 				19BD1BEF1A957A2000572CCC /* Hejfund.sketch in Resources */,
+				19BD1C061A957D2700572CCC /* chicken-nuggetsjj.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
