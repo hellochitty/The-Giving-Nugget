@@ -66,15 +66,15 @@ NSArray *quotes;
 
     if(quotes == nil) {
         quotes = [NSArray arrayWithObjects:
-                    @"Invest in people who invest in you.",
-                    @"Sometimes you will never know the value of a moment until it is a memory.",
-                    @"Be the reason someone smiles today.",
-                    @"Growing old is mandatory, but growing up is optional.",
-                    @"Go big or go home.",
-                    @"All we have to decide is what to do with the time that is given to us.",
+                    @"A day without sunshine is like, you know, night.",
+                    @"Behind every great man is a woman rolling her eyes.",
+                    @"Gloat face activated",
+                    @"ARE YOU KIDDING OR ARE YOU LYING",
+                    @"What's the difference between a garbanzo and a chickpea?",
+                    @"I haven’t slept for 10 days… because that would be too long.",
                     @"Not all who wander are lost.",
                     @"The first person to figure out that cows milk is drinkable was very very thirsty.",
-                    @"If life gives you lemons, have a lemonparty.",
+                    @"If life gives you lemons, have a lemon party.",
                     @"A beb in need is a beb indeed.",
                     @"One boob, two boob, red boob, blue boob.",
                     @"Ponies are a girl's best friend.",
