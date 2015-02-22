@@ -23,6 +23,8 @@
 		1940810219CF7F7A00F64283 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1940810019CF7F7A00F64283 /* InfoPlist.strings */; };
 		1940810419CF7F7A00F64283 /* The_Giving_NuggetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */; };
 		198974421A9A6F6500D8A859 /* icon-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 198974411A9A6F6500D8A859 /* icon-5.png */; };
+		198974441A9A78A700D8A859 /* icon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 198974431A9A78A700D8A859 /* icon-6.png */; };
+		198974461A9A78DE00D8A859 /* icon-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 198974451A9A78DE00D8A859 /* icon-7.png */; };
 		19BD1BEA1A957A2000572CCC /* add-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BCF1A957A2000572CCC /* add-2.png */; };
 		19BD1BEB1A957A2000572CCC /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD01A957A2000572CCC /* add.png */; };
 		19BD1BEC1A957A2000572CCC /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD1BD11A957A2000572CCC /* back button.png */; };
@@ -76,6 +78,8 @@
 		1940810119CF7F7A00F64283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1940810319CF7F7A00F64283 /* The_Giving_NuggetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Giving_NuggetTests.m; sourceTree = "<group>"; };
 		198974411A9A6F6500D8A859 /* icon-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-5.png"; path = "HejFund Logos/icon-5.png"; sourceTree = "<group>"; };
+		198974431A9A78A700D8A859 /* icon-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-6.png"; path = "HejFund Logos/icon-6.png"; sourceTree = "<group>"; };
+		198974451A9A78DE00D8A859 /* icon-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-7.png"; path = "HejFund Logos/icon-7.png"; sourceTree = "<group>"; };
 		19BD1BCF1A957A2000572CCC /* add-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-2.png"; path = "HejFund Logos/add-2.png"; sourceTree = "<group>"; };
 		19BD1BD01A957A2000572CCC /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "HejFund Logos/add.png"; sourceTree = "<group>"; };
 		19BD1BD11A957A2000572CCC /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "HejFund Logos/back button.png"; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 		194080DC19CF7F7A00F64283 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				198974451A9A78DE00D8A859 /* icon-7.png */,
+				198974431A9A78A700D8A859 /* icon-6.png */,
 				198974411A9A6F6500D8A859 /* icon-5.png */,
 				19BD1C051A957D2700572CCC /* chicken-nuggetsjj.png */,
 				19BD1BCF1A957A2000572CCC /* add-2.png */,
@@ -311,10 +317,12 @@
 				194080E919CF7F7A00F64283 /* Main_iPhone.storyboard in Resources */,
 				194080E019CF7F7A00F64283 /* InfoPlist.strings in Resources */,
 				19BD1BFA1A957A2000572CCC /* icon.png in Resources */,
+				198974461A9A78DE00D8A859 /* icon-7.png in Resources */,
 				19BD1BF61A957A2000572CCC /* HOME-2.png in Resources */,
 				19C62CDD1A1811CE002ADB8B /* hejfundlogo.png in Resources */,
 				19BD1BEF1A957A2000572CCC /* Hejfund.sketch in Resources */,
 				19BD1C061A957D2700572CCC /* chicken-nuggetsjj.png in Resources */,
+				198974441A9A78A700D8A859 /* icon-6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
