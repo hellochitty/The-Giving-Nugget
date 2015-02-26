@@ -22,6 +22,8 @@ extern const NSString *baseURL;
 @property (nonatomic, retain) IBOutlet UITextField *nuggetNumber; 
 @property (nonatomic, retain) IBOutlet UILabel *nuggetBalance;
 
+@property (weak, nonatomic) IBOutlet UIImageView *switchingImage;
+
 -(int)getRandomNumberBetween:(int)from and:(int)to;
 -(bool)amILoggedIn;
 

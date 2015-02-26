@@ -20,6 +20,7 @@
 @synthesize nuggetNumber;
 @synthesize nuggetType;
 @synthesize nuggetBalance;
+@synthesize switchingImage;
 
 NSString *baseURL = @"http://young-tundra-9125.herokuapp.com/";
 
@@ -162,6 +163,22 @@ NSArray *quotes;
         NSLog(@"%d", finalNuggetCount); }
 }
 
+
+
+
+- (IBAction)switchImage:(id)sender {
+    NSString *nuggetTypeString = [nuggetType titleForSegmentAtIndex:nuggetType.selectedSegmentIndex];
+    
+    if ([nuggetTypeString isEqualToString:@"Golden"]) {
+        UIImage * img = [UIImage imageNamed:@"goldnugget3.png"];
+        [switchingImage setImage: img];}
+    else {
+        UIImage * img = [UIImage imageNamed:@"chicken-nuggetsjj.png"];
+        [switchingImage setImage: img];}
+}
+
+
+
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 { //this first part is to give nuggets, this is because we used UI alert view
     if(alertView.tag==1){
@@ -207,6 +224,8 @@ NSArray *quotes;
     }
     
 }
+
+
 - (IBAction)logOut:(id)sender {
     UIAlertView *logoutAlert =[[UIAlertView alloc]
                          initWithTitle: @"Log out?"

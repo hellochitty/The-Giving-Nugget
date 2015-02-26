@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194033991A9FDDD200FC25BA /* goldnugget3.png in Resources */ = {isa = PBXBuildFile; fileRef = 194033981A9FDDD200FC25BA /* goldnugget3.png */; };
 		194080D619CF7F7A00F64283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D519CF7F7A00F64283 /* Foundation.framework */; };
 		194080D819CF7F7A00F64283 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D719CF7F7A00F64283 /* CoreGraphics.framework */; };
 		194080DA19CF7F7A00F64283 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194080D919CF7F7A00F64283 /* UIKit.framework */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		194033981A9FDDD200FC25BA /* goldnugget3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goldnugget3.png; path = "HejFund Logos/goldnugget3.png"; sourceTree = "<group>"; };
 		194080D219CF7F7A00F64283 /* The Giving Nugget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Giving Nugget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		194080D519CF7F7A00F64283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		194080D719CF7F7A00F64283 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				198974451A9A78DE00D8A859 /* icon-7.png */,
+				194033981A9FDDD200FC25BA /* goldnugget3.png */,
 				198974431A9A78A700D8A859 /* icon-6.png */,
 				198974411A9A6F6500D8A859 /* icon-5.png */,
 				19BD1C051A957D2700572CCC /* chicken-nuggetsjj.png */,
@@ -301,6 +304,7 @@
 				19BD1BF31A957A2000572CCC /* Hejfund-4.png in Resources */,
 				19BD1BEB1A957A2000572CCC /* add.png in Resources */,
 				19BD1BF71A957A2000572CCC /* HOME-4.png in Resources */,
+				194033991A9FDDD200FC25BA /* goldnugget3.png in Resources */,
 				19BD1BF01A957A2000572CCC /* Hejfund 2@3x.png in Resources */,
 				19BD1BED1A957A2000572CCC /* BACKBUTTON 2.png in Resources */,
 				19BD1BF21A957A2000572CCC /* Hejfund-3.png in Resources */,
